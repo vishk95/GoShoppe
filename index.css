@@ -1,0 +1,104 @@
+#menu0 ,#menu0 ul, #menu0 ul li ,#menu0 ul li a, #menu 1,#menu1 a, #menu 1 form #img ,#searchButtom,#searching,form,a,img,#ani,#menu3,#trending
+{
+box-sizing:border-box;	
+}
+#menu0
+{
+	
+	display:flex;
+	direction:rtl;
+	background-color:#AC0606;
+	padding:5px;
+}
+#menu0 > ul
+{
+	list-style:none;
+	display:flex;
+	margin:0px;
+}
+#menu0 > ul > li 
+{
+	font-weight:bold;
+}
+#menu0 > ul > li >a
+{
+	text-decoration:none;
+	padding:4px;
+	border-right:1px solid gray;	
+	color:white;
+	font-family:courier;
+	font-size:70%;
+}
+
+#menu1
+{
+	
+	display:flex;
+	background-color:#AB1B1B;
+	padding:5px;
+}
+#searching
+{
+	width:80%;
+	height:80%;
+	border-radius:6px;
+	border-color:lightblue;
+}
+#searchButtom
+{
+	width:10%;
+	height:80%;
+	background-color:#4D4B4B;
+	border-radius:6px;
+	border-color:white;
+	color:white;
+	font-size:auto;
+	font-family:courier;
+}
+#menu2
+{
+	display:flex;
+	margin:15px;
+	height:400px;
+}
+#ani
+{
+    width: 60%;
+    animation-name: slide;
+    animation-duration: 15s;
+	animation-iteration-count:100;
+	background-image: url('usepics/b1g.png');
+	background-size:cover;
+	border:1px solid rgb(23,124,57);
+	
+}
+
+@keyframes slide {
+    20%{background-image:url('usepics/power.png');}
+    40%{background-image: url('usepics/get.png');}
+	60%{background-image: url('usepics/b1g.png');}
+	80%{background-image: url('usepics/dod.jpg');}
+	100%{background-image: url('usepics/silk.png');}
+}
+#im
+{
+	width:100%;
+	height:50%;
+	box-sizing:border-box;
+	border:1px solid grey;
+	padding:20px;
+	
+}
+#menu3,#menu4
+{
+	display:flex;
+	padding:10px;
+	
+}
+#trending , #smartWatch
+{
+	width:25%;
+	height:auto;
+	border:1px solid grey;
+	margin:20px;
+}
